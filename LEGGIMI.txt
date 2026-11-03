@@ -1,0 +1,17 @@
+SUBTRACK v2 - Icone personalizzate, categorie libere e sincronizzazione opzionale
+
+1. Esegui un backup dalla versione precedente prima di iniziare.
+2. Pubblica i file di questa cartella su un sito HTTPS (per esempio GitHub Pages).
+3. Crea un progetto gratuito su supabase.com, apri SQL Editor ed esegui supabase_setup.sql.
+4. In Supabase > Authentication > URL Configuration, imposta Site URL sull'indirizzo HTTPS esatto della tua app e aggiungilo ai Redirect URLs.
+5. In Supabase > Project Settings > API Keys, copia Project URL e la chiave publishable (o anon). NON usare mai service_role o secret key.
+6. Nell'app, inserisci URL, chiave e la tua email, poi premi 'Invia link di accesso'. Apri il link dalla email sul dispositivo in uso.
+7. Ripeti su Mac e iPhone con lo stesso progetto Supabase e la stessa email. Premi 'Sincronizza ora' se necessario.
+
+NOTE
+- La sincronizzazione richiede Internet. Il salvataggio locale funziona anche offline.
+- Il piano gratuito Supabase ha limiti e condizioni del fornitore.
+- La sincronizzazione è una prima implementazione: non modificare contemporaneamente lo stesso abbonamento su due dispositivi; l'ultima modifica prevale.
+- Importa il backup della versione 1 per mantenere gli abbonamenti già inseriti.
+- Le icone immagine devono pesare al massimo 250 KB.
+- Non utilizzare chiavi private di Supabase nel browser.
